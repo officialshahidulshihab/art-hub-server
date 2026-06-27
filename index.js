@@ -14,7 +14,7 @@ const uri = process.env.MONGODB_URI;
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://art-hub-client-two.vercel.app"],
     credentials: true,
   }),
 );
